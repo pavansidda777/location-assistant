@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Smart Travel Assistant</title>
+  <link rel="stylesheet" href="location.css" />
+</head>
+<body>
+  <header>
+    <h1>Smart Travel Assistant</h1>
+    <p>Your location-aware travel companion</p>
+  </header>
+
+  <main>
+    <section id="status">
+      <p><strong>Network Status:</strong> <span id="network-info">Checking...</span></p>
+      <p><strong>Your Location:</strong> <span id="location">Waiting for location...</span></p>
+    </section>
+
+    <canvas id="travel-canvas" width="600" height="400"></canvas>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Smart Travel Team</p>
+  </footer>
+
+  <script src="location.js"></script>
+</body>
+</html>

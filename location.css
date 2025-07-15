@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background: #0077cc;
+  color: white;
+  text-align: center;
+  padding: 1em 0;
+}
+
+main {
+  padding: 20px;
+  text-align: center;
+}
+
+#travel-canvas {
+  border: 2px solid #333;
+  background-color: #fff;
+  margin-top: 20px;
+}
+
+#status p {
+  font-size: 1.1em;
+  margin: 10px 0;
+}
+
+footer {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 0.9em;
+  color: #888;
+}
